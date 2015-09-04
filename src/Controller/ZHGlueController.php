@@ -11,12 +11,4 @@ use Drupal\Core\Controller\ControllerBase;
 
 class ZHGlueController extends ControllerBase {
 
-  public static function buildFrontPage() {
-    $build = array(
-      '#type' => 'markup',
-      '#markup' => t('ahoy'),
-    );
-    return $build;
-  }
-
 }

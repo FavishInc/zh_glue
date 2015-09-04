@@ -1,7 +1,0 @@
-zh_glue.front:
-  path: '/front'
-  defaults:
-    _title: 'Zero Hedge | On a long enough timeline the survival rate for everyone drops to zero'
-    _controller: '\Drupal\zh_glue\Controller\ZHGlueController::buildFrontPage'
-  requirements:
-    _permission: 'access content'
