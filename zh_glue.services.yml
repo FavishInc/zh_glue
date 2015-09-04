@@ -1,0 +1,5 @@
+services:
+  zh_glue.route_subscriber:
+    class: Drupal\zh_glue\Routing\RouteSubscriber
+    tags:
+      - { name: event_subscriber }

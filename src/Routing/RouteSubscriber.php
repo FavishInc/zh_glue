@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains \Drupal\zh_glue\Routing\RouteSubscriber.
+ */
+
+namespace Drupal\zh_glue\Routing;
+
+use Drupal\Core\Routing\RouteSubscriberBase;
+use Symfony\Component\Routing\RouteCollection;
+
+/**
+ * Listens to the dynamic route events.
+ */
+class RouteSubscriber extends RouteSubscriberBase {
+
+  /**
+   * {@inheritdoc}
+   */
+  public function alterRoutes(RouteCollection $collection) {
+    $test = 1;
+  }
+}
